@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>project1</title>
+    <link rel="stylesheet" href="css/project1css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<header>
+
+</header>
+<body>
+    <div class="h-nav">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Branch and Bound technique</h1>
+    <div class="container">
+        <img src="IMG_20201227_105035.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text">Hi!! Myself Vikram Raja</div>
+        </div>
+    </div> 
+    
+
+    <div class="main">
+        <p>Branch and bound is an algorithm design 
+            paradigm which is generally used for solving 
+            combinatorial optimization problems. 
+            These problems are typically exponential 
+            in terms of time complexity and may requi
+            re exploring all possible permutations in 
+            worst case. The Branch and Bound Algorithm 
+            technique solves these problems relatively quickly.
+        </p>
+        <p>
+            Let us consider the 0/1 Knapsack problem
+             to understand Branch and Bound.
+        </p>
+        <p>
+            There are many algorithms by which the knapsack 
+            problem can be solved:
+        </p>
+        <ul>
+            <li>Greedy Algorithm for Fractional Knapsack</li><br>
+            <li>DP solution for 0/1 Knapsack</li><br>
+            <li>Backtracking Solution for 0/1 Knapsack.</li><br>
+        </ul>
+        <p>Let’s see the Branch and Bound Approach to solve the 
+            0/1 Knapsack problem: The Backtracking Solution can 
+            be optimized if we know a bound on best possible solution 
+            subtree rooted with every node. If the best in subtree is 
+            worse than current best, we can simply ignore this node and 
+            its subtrees. So we compute bound (best solution) for every 
+            node and compare the bound with current best solution before 
+            exploring the node.
+        </p>
+        <p>
+            Example bounds used in below diagram are, A down can give $315,
+            B down can $275, C down can $225, D down can $125 and E down can $30. 
+        </p>
+        <img src="knapsack3.jpg" alt="">
+
+        <h1 class="bottom">AVLO THAAN</h1>
+    </div>
+    </div>
+    
+
+</body>
+</html>
